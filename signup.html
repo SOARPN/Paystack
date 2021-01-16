@@ -3,20 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/86ccccfd4c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Signup page</title>
+    <link rel="icon" type="image/png" href="https://dashboard.paystack.com/icons/favicon-32x32.png">
 </head>
 <body>
-    <div class="paystack-logo">
+    <div class="paystack-logo2">
         <a href="#"><img src="https://dashboard.paystack.com/assets/img/logo.svg" alt="paystacklogo"></a>
     </div>
-    <div>
-        <form action=""></form>
+    <div class="form-div2">
+        <form action="">
+            <div class="heading">
+                <h1>CREATE YOUR ACCOUNT</h1>
+            </div>
+            <div class="label-div">
+            <label for="country" class="label">Country
+                <a href="https://paystack.com/countries" class="country-link">Other countries</a>
+            </label>
+            </div>
+            <div>
+            <select name="countries" id="countries">
+                <option value="">Nigeria</option>
+                <option value="">Ghana</option>
+                <option value="">South Africa</option>
+            </select>
+            </div>
+            <div class="label-div">
+                <label for="business name" class="label">Business Name</label>
+                <input type="text" name="" class="input-class" id="business name">
+            </div>
+            <div class="label-div">
+                <label for="first name" class="label">First Name</label>
+                <input type="text" name="" class="input-class" id="first name">
+            </div>
+            <div class="label-div">
+                <label for="last name" class="label">Last Name</label>
+                <input type="text" name="" class="input-class" id="last name">
+            </div>
+            <div class="label-div">
+                <label for="email" class="label">Email Address</label>
+                <input type="email" name="" class="input-class" id="email">
+            </div>
+            <div class="label-div">
+                <label for="password" class="label">Password</label>
+                <input type="password" name="" class="input-class" id="password">
+                <!-- <i class="far fa-eye"></i> -->
+                
+            </div>
+            <div class="label-div"><label class="label">Are you a software developer?</label></div>
+            <div class="radio">
+                <input type="radio" id="radio" value="yes" class="radio-btn">
+                <label for="Yes" class="radio-txt">Yes, I am</label>
+                </div>
+                <div class="radio">
+                <input type="radio" id="radio" value="no" class="radio-btn">
+                <label for="no" class="radio-txt">No, I'm not</label>    
+            </div>
+                <button class="login-btn">Create My account</button>
+            <p>By clicking the “Create My Account” button, you agree to</p>
+            <p class="paragraph">Paystack’s <a href="#" class="link"> term of acceptable use</a>.</p>
+        </form>
     </div>
-
+        <p class="log-in">Already have an account?<a href="#">Login</a></p>
 
     <div>
-        <button class="help"> <i class="far fa-question-circle"></i> Help</button>
+        <button class="help2"> <i class="far fa-question-circle"></i> Help</button>
     </div>
 </body>
 </html>
